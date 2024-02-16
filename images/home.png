@@ -1,3 +1,14 @@
 <!DOCTYPE html>
-https://github.com/bacs200steven-sanchez/bacs200steven-sanchez.github.io/blob/main/images/home.png?raw=true
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Displaying an Image in HTML</title>
+</head>
+<body>
+
+<!-- Image displayed using the img tag -->
+<img src="https://github.com/bacs200steven-sanchez/bacs200steven-sanchez.github.io/blob/main/images/home.png?raw=true" alt="Home Image">
+
+</body>
 </html>
