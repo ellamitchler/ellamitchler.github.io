@@ -3,23 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Button with Image Background</title>
-<style>
-  /* Style for the button */
-  .custom-button {
-    background-image: url('https://github.com/bacs200steven-sanchez/bacs200steven-sanchez.github.io/blob/main/images/logo.png?raw=true');
-    background-size: cover;
-    width: 150px; /* Adjust width and height as needed */
-    height: 50px;
-    border: none;
-    cursor: pointer;
-  }
-</style>
+<title>Displaying an Image in HTML</title>
 </head>
 <body>
 
-<!-- Button with image background -->
-<button class="custom-button"></button>
+<!-- Image displayed using the img tag -->
+<img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" alt="UNC Logo">
 
 </body>
 </html>
