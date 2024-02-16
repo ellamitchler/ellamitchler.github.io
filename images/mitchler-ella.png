@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button with Image Background</title>
+<style>
+  /* Style for the button */
+  .custom-button {
+    background-image: url('https://media.licdn.com/dms/image/D4D03AQHvNv19bMEynQ/profile-displayphoto-shrink_800_800/0/1685471574545?e=2147483647&v=beta&t=bhzAyvFVJxH-MxPPJiGzegqzeta-BK_MeCBCygxf_gQ');
+    background-size: cover;
+    width: 150px; /* Adjust width and height as needed */
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
 
+<!-- Button with image background -->
+<button class="custom-button"></button>
+
+</body>
+</html>
