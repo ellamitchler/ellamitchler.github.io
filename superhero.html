@@ -3,24 +3,55 @@
     <meta charset="UTF-8">
     <title>Superheroes</title>
     <style>
-        .heropic {
-            height: 100px;
+        /* Additional CSS rules */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
         }
 
-        td,
-        th {
-            border: 2px solid black;
-            padding: 15px;
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
         }
 
         table {
-            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         th {
-            background-color: gray;
+            background-color: #333;
+            color: #fff;
             font-size: 18px;
+            padding: 15px;
+            text-align: left;
         }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .heropic {
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .weaknesses ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .weaknesses ul li {
+            margin-bottom: 5px;
+        }
+
     </style>
 </head>
 <body>
@@ -37,11 +68,11 @@
         </thead>
         <tbody>
             <tr>
-                <th>Batman</th>
-                <td>Bruce&nbsp;Wayne</td>
+                <td>Batman</td>
+                <td>Bruce Wayne</td>
                 <td><img class="heropic" src="https://sites.rutgers.edu/acal51/wp-content/uploads/sites/291/2017/12/3859882-6269102771-Bruce.jpg" alt="Batman Pic"></td>
                 <td>N/A</td>
-                <td>
+                <td class="weaknesses">
                     <ul>
                         <li>Human/Vulnerable</li>
                         <li>Childhood Trauma</li>
@@ -50,8 +81,8 @@
                 </td>
             </tr>
             <tr>
-                <th>Superman</th>
-                <td>Clark&nbsp;Kent</td>
+                <td>Superman</td>
+                <td>Clark Kent</td>
                 <td><img class="heropic" src="https://cdn.theatlantic.com/thumbor/NcreaZYqZHtPdzS9xzzjcN6gyI4=/540x0:2340x1800/1080x1080/media/img/mt/2016/01/superman/original.jpg" alt="Superman Pic"></td>
                 <td>
                     <ul>
@@ -62,13 +93,11 @@
                         <li>Laser Eyes</li>
                     </ul>
                 </td>
-                <td>
-                    Kryptonite
-                </td>
+                <td class="weaknesses">Kryptonite</td>
             </tr>
             <tr>
-                <th>Wonder Woman</th>
-                <td>Diana&nbsp;Prince</td>
+                <td>Wonder Woman</td>
+                <td>Diana Prince</td>
                 <td><img class="heropic" src="https://variety.com/wp-content/uploads/2023/08/Screen-Shot-2023-08-10-at-3.43.28-PM.png" alt="Wonder Woman Pic"></td>
                 <td>
                     <ul>
@@ -78,13 +107,11 @@
                         <li>Magic weaponry</li>
                     </ul>
                 </td>
-                <td>
-                    Divine vulnerabilities
-                </td>
+                <td class="weaknesses">Divine vulnerabilities</td>
             </tr>
             <tr>
-                <th>Spider-Man</th>
-                <td>Peter&nbsp;Parker</td>
+                <td>Spider-Man</td>
+                <td>Peter Parker</td>
                 <td><img class="heropic" src="https://i.pinimg.com/originals/b9/41/fe/b941fec0ee71c5b58fda89b945c9edb4.jpg" alt="Spider-Man Pic"></td>
                 <td>
                     <ul>
@@ -93,11 +120,10 @@
                         <li>Spider sense</li>
                     </ul>
                 </td>
-                <td>
-                    Responsibility
-                </td>
+                <td class="weaknesses">Responsibility</td>
             </tr>
         </tbody>
     </table>
 </body>
 </html>
+
