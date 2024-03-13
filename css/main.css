@@ -1,109 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website Title</title>
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-  <header>
-    <h1>Your Website Name</h1>
-    <ul class="navigation">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </header>
 
-  <main>
-    <p>This is some paragraph content.</p>
-    <p>You can add more content here, including images, buttons, etc.</p>
-    <img src="path/to/your/image.jpg" alt="Image description"> <button>Click Me!</button>
-  </main>
+body {background: linear-gradient(to right, #f0f9ff, #e5edef);}
 
-</body>
-</html>
-/* 1. Background */
+img {width: 75%; border-radius: 10px; opacity: 0.8; filter: sepia(20%);}
 
-body {
-  background-color: #f5f5f5; /* Light gray background */
-  /* OR */
-  /* background-image: url("path/to/your/background.jpg");  */
-}
+h1 {color: #212529; font-size: 2.5em; font-weight: 700; text-decoration: none; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);}
 
-/* 2. Styling Images */
+p {font-family: Arial, sans-serif; line-height: 1.6; margin: 1em 0;}
 
-img {
-  width: 200px; /* Set a default width for images */
-  border-radius: 5px; /* Add some rounded corners */
-  opacity: 0.8; /* Set a slight transparency */
-}
+a {color: #3498db; text-decoration: none; transition: text-decoration 0.2s ease-in-out;}
 
-/* 3. h1 Headings */
+a:hover {text-decoration: underline;}
 
-h1 {
-  color: #333; /* Dark gray text color */
-  font-size: 2em; /* Set the font size to 2 times the default */
-  font-weight: bold; /* Make the text bold */
-  text-decoration: none; /* Remove any underline by default */
-}
+.hero {padding: 2em; text-align: center; }
 
-/* 4. Custom Color */
-
-.custom-color {
-  color: hsl(200, 100%, 60%); /* Light blue color */
-}
-
-/* 5. Paragraphs */
-
-p {
-  font-size: 16px; /* Set default font size */
-  line-height: 1.5; /* Adjust line spacing */
-  margin: 1em 0; /* Set margin top and bottom */
-}
-
-/* 6. Links */
-
-a {
-  color: #333; /* Default link color */
-  text-decoration: none; /* Remove underline by default */
-  transition: color 0.2s ease-in-out; /* Smooth hover effect */
-}
-
-a:hover {
-  color: #222; /* Change link color on hover */
-}
-
-/* 7. Buttons */
-
-button {
-  background-color: #4CAF50; /* Green button color */
-  color: white; /* White text color */
-  padding: 10px 20px; /* Add padding */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Add rounded corners */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
-}
-
-button:hover {
-  background-color: #3e8e41; /* Darken button color on hover */
-}
-
-/* 8. Basic Navigation Menu (assuming unordered list) */
-
-ul.navigation {
-  list-style: none; /* Remove default bullet points */
-  padding: 0; /* Reset padding */
-  margin: 0; /* Reset margin */
-}
-
-ul.navigation li {
-  display: inline-block; /* Display list items inline */
-  margin-right: 20px; /* Add space between list items */
-}
-
-ul.navigation li a {
-  /* Inherit styles from link section (colors, hover effect) */
-}
+.hero h1 {font-size: 4em; margin-bottom: 1em; }
