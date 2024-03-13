@@ -1,4 +1,7 @@
 
+<head>
+  <link rel="stylesheet" href="main.css">
+  </head> 
 body {background: linear-gradient(to right, #f0f9ff, #e5edef);}
 
 img {width: 75%; border-radius: 10px; opacity: 0.8; filter: sepia(20%);}
