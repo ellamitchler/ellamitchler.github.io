@@ -1,3 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website Title</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Your Website Name</h1>
+    <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <p>This is some paragraph content.</p>
+    <p>You can add more content here, including images, buttons, etc.</p>
+    <img src="path/to/your/image.jpg" alt="Image description"> <button>Click Me!</button>
+  </main>
+
+</body>
+</html>
 /* 1. Background */
 
 body {
