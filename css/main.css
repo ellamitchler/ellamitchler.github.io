@@ -1,19 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-  <header>
-    <h1>My Homepage</h1>
-  </header>
+/* Styles from amuse.html */
 
-  <nav>
-    <img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" width="350" alt="UNC Logo">
-  </nav>
-  
-</body>
-</html>
+h1 {
+  color: red;
+}
+
+.border-image {
+  border: 1px solid black;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Add any other styles you want to apply globally across your website */
+
+.special-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
