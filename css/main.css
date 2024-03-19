@@ -131,3 +131,8 @@ h2 {
     width: 200px;
   }
 }
+img {
+  width: 100%; /* Set the image width to 100% of its container */
+  border-radius: 5px; /* Add rounded corners with a radius of 5px */
+  opacity: 0.8; /* Set the image opacity to 80% (slightly transparent) */
+}
