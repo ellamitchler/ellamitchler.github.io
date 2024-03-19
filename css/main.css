@@ -1,9 +1,9 @@
 
-CSS
 @font-face {
   font-family: 'Bubblegum Sans', cursive;
   src: url('fonts/BubblegumSans-Regular.ttf') format('truetype');
 }
+
 
 @font-face {
   font-family: 'Arial', sans-serif;
@@ -11,18 +11,20 @@ CSS
        url('fonts/arial.woff') format('woff');
 }
 
+
 body {
   font-family: 'Bubblegum Sans', cursive;
   font-family: 'Arial', sans-serif;
-  font-size: 16px; 
+  font-size: 16px;
+}
 
 
-
-h1 {
+h1 {  
   color: #f0594a;
+}
 
 .border-image {
-  border: 1px solid #f0594a;
+  border: 1px solid #f0594a; 
 }
 
 p {
@@ -31,6 +33,7 @@ p {
 h2 {
   text-align: center;
 }
+
 
 .nav-bar {
   background-color: #f0f0f0;
@@ -58,7 +61,7 @@ h2 {
 
 
 .button {
-  background-color: #f0594a;
+  background-color: #f0594a; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -71,9 +74,10 @@ h2 {
 }
 
 .button:hover {
-  background-color: #e0463c; 
+  background-color: #e0463c; /* Darken the pink on hover */
 }
 
+/* Basic Responsive Design (optional) */
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 20px;
