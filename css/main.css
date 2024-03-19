@@ -43,7 +43,7 @@ h2 {
 .nav-bar {
   background-color: #f0594a; /* Pink color for the home button */
   color: #fff; /* White text color for the home button */
-  padding: 8px 16px; /* Adjusted padding to make the home button smaller */
+  padding: 8px 12px; /* Adjusted padding to make the home button smaller */
 }
 
 .nav-bar a {
@@ -68,7 +68,7 @@ h2 {
   background-color: #f0594a; /* Pink color for buttons */
   border: none;
   color: #fff; /* White text color for buttons */
-  padding: 10px 20px; /* Adjusted padding to make the home button smaller */
+  padding: 5px 10px; /* Adjusted padding to make the home button way smaller */
   text-align: center;
   text-decoration: none;
   display: inline-block;
