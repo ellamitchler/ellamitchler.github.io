@@ -9,26 +9,24 @@
 }
 
 body {
-  /* Apply the font to the body */
-body {
-  font-family: 'Bubblegum Sans', cursive; /* Use fun font first */
-  font-family: 'Arial', sans-serif; /* Fallback if 'Bubblegum Sans' fails */
-  font-size: 16px; /* Set a base font size */
-  color: #2980b9; /* Set the desired blue color (replace with your hex code) */
-}
+  body {
+  font-family: 'Bubblegum Sans', cursive; 
+  font-family: 'Arial', sans-serif; 
+  font-size: 16px; 
+  color: #2980b9; }
 
-/* Titles (h1, h2) and subtitles (.subtitle) keep default color (likely black) */
+
 h1, h2, .subtitle {
   color: inherit;
 }
 
-/* Make all other text elements blue */
-p, span, a { /* Target various text elements */
-  color: inherit; /* Inherit from body (which is blue) */
+
+p, span, a { 
+  color: inherit; 
 }
 
-/* Styles from amuse.html */
-.fun-text { /* Example selector for "Bubblegum Sans" */
+
+.fun-text { 
   font-family: "Bubblegum Sans", sans-serif;
 }
 
@@ -36,7 +34,6 @@ h1,
 .fun-text { 
   font-family: "Bubblegum Sans", sans-serif;
 }
-
 
 
 
