@@ -1,5 +1,4 @@
 
-
 h1 {
   color: red;
 }
@@ -78,10 +77,15 @@ h2 {
     width: 200px;
   }
 }
+
+/* Font Family for the website */
 @font-face {
   font-family: 'Raleway', sans-serif;
   src: url('fonts/Raleway-Regular.woff2') format('woff2'),
        url('fonts/Raleway-Regular.woff') format('woff');
 }
 
-body {font-family: 'Raleway', sans-serif;}
+/* Apply the font to the body */
+body {
+  font-family: 'Raleway', sans-serif;
+}
