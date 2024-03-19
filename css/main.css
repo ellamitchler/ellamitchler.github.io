@@ -13,7 +13,7 @@ body {
   font-family: 'Bubblegum Sans', cursive; 
   font-size: 16px; 
   color: #2980b9;
-  background-color: #333;
+  background-color: #f0f0f0; /* Light gray background */
 }
 
 h1, h2, .subtitle {
@@ -21,7 +21,7 @@ h1, h2, .subtitle {
 }
 
 p, span, a {
-  color: inherit;
+  color: blue; /* Blue color for smaller words */
 }
 
 .fun-text {
@@ -41,8 +41,8 @@ h2 {
 }
 
 .nav-bar {
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: #f0594a; /* Pink color for the home button */
+  color: #fff; /* White text color for the home button */
   padding: 10px;
 }
 
@@ -65,10 +65,10 @@ h2 {
 }
 
 .button {
-  background-color: #f0594a;
+  background-color: #f0594a; /* Pink color for buttons */
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: #fff; /* White text color for buttons */
+  padding: 15px 20px; /* Adjusted padding */
   text-align: center;
   text-decoration: none;
   display: inline-block;
