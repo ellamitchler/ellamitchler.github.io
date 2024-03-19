@@ -1,27 +1,7 @@
-/* Styles from amuse.html */
 
-h1 {
-  color: red;
-}
 
-.border-image {
-  border: 1px solid black;
-}
-
-p {
-  font-size: 16px;
-}
-
-h2 {
-  text-align: center;
-}
-
-/* Add any other styles you want to apply globally across your website */
-
-.special-button {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+h1 {color: red;}
+.border-image {border: 1px solid black;}
+p {font-size: 16px;}
+h2 {text-align: center;}
+.special-button {background-color: #f0f0f0;border: 1px solid #ccc;padding: 10px;border-radius: 5px;cursor: pointer;}
