@@ -1,40 +1,42 @@
-
+/* Font Family for the website (Fun Font) */
 @font-face {
   font-family: 'Bubblegum Sans', cursive;
   src: url('fonts/BubblegumSans-Regular.ttf') format('truetype');
 }
 
-
+/* Fallback Font (Sans-Serif) */
 @font-face {
   font-family: 'Arial', sans-serif;
   src: url('fonts/arial.woff2') format('woff2'),
        url('fonts/arial.woff') format('woff');
 }
 
-
+/* Apply the font to the body */
 body {
-  font-family: 'Bubblegum Sans', cursive;
-  font-family: 'Arial', sans-serif;
-  font-size: 16px;
+  font-family: 'Bubblegum Sans', cursive; /* Use fun font first */
+  font-family: 'Arial', sans-serif; /* Fallback if 'Bubblegum Sans' fails */
+  font-size: 16px; /* Set a base font size */
 }
 
+/* Styles from amuse.html */
 
-h1 {  
-  color: #f0594a;
+h1 {  /* Including "amuse" title */
+  color: #f0594a; /* Fun pink color */
 }
 
 .border-image {
-  border: 1px solid #f0594a; 
+  border: 1px solid #f0594a; /* Match the pink color */
 }
 
 p {
+  /* Inherit font size from body */
 }
 
 h2 {
   text-align: center;
 }
 
-
+/* Navigation Bar Styling */
 .nav-bar {
   background-color: #f0f0f0;
   color: #333;
@@ -52,6 +54,7 @@ h2 {
   color: #000;
 }
 
+/* Featured Image Styling */
 .featured-image {
   width: 300px;
   display: block;
@@ -59,16 +62,16 @@ h2 {
   border: 5px solid #ddd;
 }
 
-
+/* Button Styling */
 .button {
-  background-color: #f0594a; 
+  background-color: #f0594a; /* Match the pink color */
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px; 
+  font-size: 16px; /* Inherit from body */
   margin: 4px 2px;
   cursor: pointer;
 }
