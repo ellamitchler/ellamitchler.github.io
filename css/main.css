@@ -1,1 +1,24 @@
+/* 1. Background for All Pages */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+}
 
+/* 2. Styles for Images */
+img {
+    max-width: 300px; /* Limit image width */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0.8; /* Slight transparency */
+}
+
+/* 3. Styles for h1 Headings */
+h1 {
+    color: #333; /* Dark gray text */
+    font-size: 2em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-decoration: underline; /* Underline the heading */
+}
+
+/* 4. Custom Color Example (Adjust as desired) */
+.custom-color {
+    color: hsl(200, 100%, 60%); /* Light blue using HSL */
+}
