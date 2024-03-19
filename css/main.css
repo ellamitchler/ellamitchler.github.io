@@ -13,17 +13,15 @@ body {
   font-family: 'Bubblegum Sans', cursive; 
   font-size: 16px; 
   color: #2980b9;
-  background-color: #ffffcc;
-}
-
+  background-color: #ffffcc; /* Light yellow background */
 }
 
 h1, h2, .subtitle {
-  color: inherit;
+  color: #f0594a; /* Red color for headings */
 }
 
 p, span, a {
-  color: blue; /* Blue color for smaller words */
+  color: #f0594a; /* Red color for smaller words */
 }
 
 .fun-text {
@@ -43,9 +41,9 @@ h2 {
 }
 
 .nav-bar {
-  background-color: #f0594a; /* Pink color for the home button */
+  background-color: pink; /* Pink color for the home button */
   color: #fff; /* White text color for the home button */
-  padding: 6px 10px; /* Adjusted padding to make the home button smaller */
+  padding: 8px 12px; /* Adjusted padding to make the home button smaller */
 }
 
 .nav-bar a {
@@ -67,10 +65,10 @@ h2 {
 }
 
 .button {
-  background-color: #f0594a; /* Pink color for buttons */
+  background-color: pink; /* Pink color for buttons */
   border: none;
   color: #fff; /* White text color for buttons */
-  padding: 3px 8px; /* Adjusted padding to make the home button way smaller */
+  padding: 3px 8px; /* Adjusted padding to make the home button smaller */
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -105,5 +103,5 @@ img {
 
 /* Apply pink color to the title "Funny Things on the Web" */
 h1 {
-  color: #f0594a;
+  color: pink;
 }
