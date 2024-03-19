@@ -1,24 +1,34 @@
-/* Font Family for the website */
+Absolutely! Here's the code for main.css using a fun font called "Bubblegum Sans" along with some additional styles:
+
+CSS
+/* Font Family for the website (Fun Font) */
 @font-face {
-  font-family: 'Raleway', sans-serif;
-  src: url('fonts/Raleway-Regular.woff2') format('woff2'),
-       url('fonts/Raleway-Regular.woff') format('woff');
+  font-family: 'Bubblegum Sans', cursive;
+  src: url('fonts/BubblegumSans-Regular.ttf') format('truetype');
+}
+
+/* Fallback Font (Sans-Serif) */
+@font-face {
+  font-family: 'Arial', sans-serif;
+  src: url('fonts/arial.woff2') format('woff2'),
+       url('fonts/arial.woff') format('woff');
 }
 
 /* Apply the font to the body */
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Bubblegum Sans', cursive; /* Use fun font first */
+  font-family: 'Arial', sans-serif; /* Fallback if 'Bubblegum Sans' fails */
   font-size: 16px; /* Set a base font size */
 }
 
 /* Styles from amuse.html */
 
 h1 {
-  color: red;
+  color: #f0594a; /* A fun pink color */
 }
 
 .border-image {
-  border: 1px solid black;
+  border: 1px solid #f0594a; /* Match the pink color */
 }
 
 p {
@@ -31,8 +41,8 @@ h2 {
 
 /* Navigation Bar Styling */
 .nav-bar {
-  background-color: #333;
-  color: #fff;
+  background-color: #f0f0f0;
+  color: #333;
   padding: 10px;
 }
 
@@ -44,7 +54,7 @@ h2 {
 
 .nav-bar a:hover {
   background-color: #ddd;
-  color: #333;
+  color: #000;
 }
 
 /* Featured Image Styling */
@@ -57,7 +67,7 @@ h2 {
 
 /* Button Styling */
 .button {
-  background-color: #4CAF50; /* Green color */
+  background-color: #f0594a; /* Match the pink color */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -70,7 +80,7 @@ h2 {
 }
 
 .button:hover {
-  background-color: #45A049;
+  background-color: #e0463c; /* Darken the pink on hover */
 }
 
 /* Basic Responsive Design (optional) */
