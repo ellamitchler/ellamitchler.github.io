@@ -78,3 +78,10 @@ h2 {
     width: 200px;
   }
 }
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('fonts/Raleway-Regular.woff2') format('woff2'),
+       url('fonts/Raleway-Regular.woff') format('woff');
+}
+
+body {font-family: 'Raleway', sans-serif;}
