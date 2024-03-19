@@ -1,7 +1,8 @@
 /* Font Family for the website (Fun Font) */
 @font-face {
   font-family: 'Bubblegum Sans', cursive;
-  src: url('.bubblegum-sans-regular {
+  src: url('=https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap')
+</style>.bubblegum-sans-regular {
   font-family: "Bubblegum Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
