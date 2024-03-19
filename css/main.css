@@ -1,3 +1,17 @@
+/* Font Family for the website */
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('fonts/Raleway-Regular.woff2') format('woff2'),
+       url('fonts/Raleway-Regular.woff') format('woff');
+}
+
+/* Apply the font to the body */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px; /* Set a base font size */
+}
+
+/* Styles from amuse.html */
 
 h1 {
   color: red;
@@ -8,21 +22,14 @@ h1 {
 }
 
 p {
-  font-size: 16px;
+  /* Inherit font size from body */
 }
 
 h2 {
   text-align: center;
 }
 
-.special-button {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
+/* Navigation Bar Styling */
 .nav-bar {
   background-color: #333;
   color: #fff;
@@ -40,6 +47,7 @@ h2 {
   color: #333;
 }
 
+/* Featured Image Styling */
 .featured-image {
   width: 300px;
   display: block;
@@ -47,15 +55,16 @@ h2 {
   border: 5px solid #ddd;
 }
 
+/* Button Styling */
 .button {
-  background-color: #4CAF50;
+  background-color: #4CAF50; /* Green color */
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 16px; /* Inherit from body */
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -64,6 +73,7 @@ h2 {
   background-color: #45A049;
 }
 
+/* Basic Responsive Design (optional) */
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 20px;
@@ -76,16 +86,4 @@ h2 {
   .featured-image {
     width: 200px;
   }
-}
-
-/* Font Family for the website */
-@font-face {
-  font-family: 'Raleway', sans-serif;
-  src: url('fonts/Raleway-Regular.woff2') format('woff2'),
-       url('fonts/Raleway-Regular.woff') format('woff');
-}
-
-/* Apply the font to the body */
-body {
-  font-family: 'Raleway', sans-serif;
 }
