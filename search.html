@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Google Search</title>
+  </head>
+<body>
+  <h1>Advanced Google Search</h1>
+  <form action="https://www.google.com/search" method="get">
+    <fieldset>
+      <legend>Search Criteria</legend>
+      <label for="keywords">Keywords:</label>
+      <input type="text" id="keywords" name="q" placeholder="Enter your search terms">
+      <br>
+      <label for="search_type">Search Type:</label>
+      <select name="tbm" id="search_type">
+        <option value="">All</option>
+        <option value="isch">Images</option>
+        <option value="nws">News</option>
+        <option value="vid">Videos</option>
+      </select>
+      <br>
+      <label for="date_filter">Filter by Date:</label>
+      <input type="checkbox" id="date_filter" name="tbs">
+      <label for="date_range">Select Date Range (if filter is checked):</label>
+      <select name="tbs" id="date_range" disabled>
+        <option value="qdr:d">Past Day</option>
+        <option value="qdr:w">Past Week</option>
+        <option value="qdr:m">Past Month</option>
+        <option value="qdr:y">Past Year</option>
+      </select>
+      <br>
+      <button type="submit">Search</button>
+      <button type="reset">Reset</button>
+    </fieldset>
+  </form>
+</body>
+</html>
