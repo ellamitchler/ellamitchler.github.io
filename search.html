@@ -2,48 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Advanced Search</title>
+  <title>Enhanced Search with User-Friendly Options</title>
   <style>
-    /* Optional styling for the form */
+    /* Optional styling for a visually appealing form */
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"], input[type="date"] {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    select {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .checkbox-container {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .buttons {
+      text-align: center;
+    }
   </style>
 </head>
 <body>
-  <h1>Advanced Search</h1>
-  <form action="/search" method="post">
-    <label for="keywords">Keywords:</label>
-    <input type="text" name="keywords" id="keywords" placeholder="Enter your search terms">
-    <br>
+  <h1>Enhanced Search</h1>
+  <form action="https://www.google.com/search" method="get" target="_blank">  <fieldset>
+      <legend>Search Criteria</legend>
+      <label for="keywords">Keywords:</label>
+      <input type="text" name="q" id="keywords" placeholder="Enter your search terms">
+      <br>
 
-    <fieldset>
-      <legend>Date Range</legend>
-      <label for="date_from">From:</label>
-      <input type="date" name="date_from" id="date_from">
-      <label for="date_to">To:</label>
-      <input type="date" name="date_to" id="date_to">
+      <label for="date_from">Date Range (From):</label>
+      <input type="date" name="tbs" id="date_from">  <label for="category">Category (Optional):</label>
+      <select name="gl" id="category">  <option value="">All Categories</option>
+        <option value="us">US News</option>  <option value="uk">UK News</option>  </select>
+      <br>
+
+      <label for="sort">Sort by:</label>
+      <select name="sort" id="sort">
+        <option value="">Relevance (Default)</option>
+        <option value="date">Date</option>
+      </select>
+      <br>
+
+      <div class="checkbox-container">
+        <label for="exact_phrase">
+          <input type="checkbox" name="q" value="*keyword*" id="exact_phrase">  Search for exact phrase
+        </label>
+      </div>
+
+      <div class="checkbox-container">
+        <label for="exclude_words">
+          <input type="checkbox" name="q" value="-excludeword" id="exclude_words">  Exclude words
+        </label>
+      </div>
+      <br>
+
     </fieldset>
-
-    <label for="category">Category:</label>
-    <select name="category" id="category">
-      <option value="">All Categories</option>
-      <option value="news">News</option>
-      <option value="articles">Articles</option>
-      <option value="products">Products</option>
-    </select>
-    <br>
-
-    <label for="author">Author:</label>
-    <input type="text" name="author" id="author" placeholder="Search by author">
-    <br>
-
-    <label for="exact_phrase">Search for exact phrase:</label>
-    <input type="checkbox" name="exact_phrase" id="exact_phrase">
-    <br>
-
-    <label for="exclude_words">Exclude words:</label>
-    <input type="text" name="exclude_words" id="exclude_words" placeholder="Comma separated words">
-    <br>
-
-    <button type="submit">Search</button>
+    <div class="buttons">
+      <button type="submit">Search Google</button>
+      <button type="reset">Clear</button>
+    </div>
   </form>
 </body>
 </html>
