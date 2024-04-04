@@ -1,46 +1,15 @@
-body {
-    text-align: center;
-    background-color: lightblue;
-}
+body {text-align: center; background-color: lightblue;}
 
-nav {
-    text-align: center;
-}
+nav {text-align: center;}
 
-h1 {
-    font-size: 36px;
-}
+h1 {font-size: 36px;color: pink;text-shadow: 0 0 10px white;}
 
-section {
-    margin: 0 auto;
-    width: 60%;
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
+section {margin: 20px auto; width: 60%; text-align: center; background-color: white; padding: 20px; border-radius: 10px; border: 5px solid pink;}
 
-img {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%; 
-    margin-bottom: 10px;
-}
+img {width: 150px; height: auto; display: block; margin: 0 auto; border-radius: 50%; margin-bottom: 10px;}
 
-ul {
-    text-align: left;
-    list-style-position: inside; 
-    padding-left: 0; 
-}
+ul {text-align: left; list-style-position: inside; padding-left: 0;}
 
-li {
-    text-align: left;
-    margin-bottom: 10px;
-}
+li {text-align: left; margin-bottom: 10px;}
 
-h2 {
-    text-align: center; 
-}
+h2 { text-align: center;}
