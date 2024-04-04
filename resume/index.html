@@ -1,49 +1,63 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="css/style.css">
-        <meta charset="UTF-8">
-        <title>Resume</title>
-    </head>
-    <body>
-        <nav>
-            <h1>Ella Mitchler</h1>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        section {
+            margin: 0 auto;
+            width: 60%;
+            text-align: left;
+        }
+        img {
+            width: 150px; /* Adjust size as needed */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <h1>Ella Mitchler</h1>
+    <ul>
+        <li><a href="index.html#contactinfo">Contact Info</a></li>
+        <li><a href="index.html#education">Education</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="skills.html#skills">Skills</a></li>
+    </ul>
+</nav>
+<section id="contactinfo">
+    <h2>Contact Info</h2>
+    <img src="https://media.licdn.com/dms/image/D4D03AQHvNv19bMEynQ/profile-displayphoto-shrink_800_800/0/1685471574545?e=2147483647&v=beta&t=bhzAyvFVJxH-MxPPJiGzegqzeta-BK_MeCBCygxf_gQ">
+    <ul>
+        <li>Phone: 719-649-5427</li>
+        <li>Email: mitchlerella@gmail.com</li>
+    </ul>
+</section>
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <h3>University of Northern Colorado <span class="date">(May 2009)</span></h3>
             <ul>
-                <li><a href=index.html#contactinfo>Contact Info</a></li>
-                <li><a href=index.html#education>Education</a></li>
-                <li><a href=index.html#experience>Experience</a></li>
-                <li><a href=skills.html#skills>Skills</a></li>
+                <li>Major: Communications </li>
+                <li>Minor: Digital Marketing </li>
             </ul>
-        </nav>
-        <section id="contactinfo">
-            <h2>Contact Info</h2>
-            <img src="https://media.licdn.com/dms/image/D4D03AQHvNv19bMEynQ/profile-displayphoto-shrink_800_800/0/1685471574545?e=2147483647&v=beta&t=bhzAyvFVJxH-MxPPJiGzegqzeta-BK_MeCBCygxf_gQ">
-            <ul>
-                <li>Phone: 719-649-5427</li>
-                <li>Email: mitchlerella@gmail.com</li>
-            </ul>
-            
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>
-                    <h3>University of Northern Colorado <span class="date">(August 2023-May 2027)</span></h3>
-                    <ul>
-                        <li>Major: Communicatinos </li>
-                        <li>Minor: Digital Marketing </li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li>Senior Business Analyst @ UNC <span class="date">(Dec 2016 - Present)</span></li>
-                <li>Adjunct Faculty Lecturer for MCB @ UNC <span class="date">(Aug 2013 - Present)</span></li>
-                <li>Senior Systems Admin @ UNC <span class="date">(Feb 2015 - Dec 2016)</span></li>
-            </ul>
-        </section>
-    </body>
+        </li>
+    </ul>
+</section>
+<section id="experience">
+    <h2>Experience</h2>
+    <ul>
+        <li>Senior Business Analyst @ UNC <span class="date">(Dec 2016 - Present)</span></li>
+        <li>Adjunct Faculty Lecturer for MCB @ UNC <span class="date">(Aug 2013 - Present)</span></li>
+        <li>Senior Systems Admin @ UNC <span class="date">(Feb 2015 - Dec 2016)</span></li>
+    </ul>
+</section>
+</body>
 </html>
