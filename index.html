@@ -5,6 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Website</title>
   <link rel="stylesheet" href="css/main.css">
+  <style>
+    /* Additional CSS for responsiveness */
+    img {
+      max-width: 100%; /* Ensure images don't exceed container width */
+      height: auto; /* Maintain aspect ratio */
+    }
+    
+    /* Example of using vw for font size */
+    h1 {
+      font-size: 5vw; /* Responsive font size based on viewport width */
+    }
+    
+    /* Example of media query for adjusting layout */
+    @media only screen and (max-width: 600px) {
+      nav ul {
+        flex-direction: column; /* Stack nav links vertically on small screens */
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -12,7 +31,7 @@
   </header>
 
   <nav>
-    <img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" width="350" alt="UNC Logo">
+    <img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" alt="UNC Logo">
     <ul>
       <li><a href="https://ellamitchler.github.io/profile.html">My Profile</a></li>
       <li><a href="https://ellamitchler.github.io/inspire.html">My Hero</a></li>
