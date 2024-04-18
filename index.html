@@ -8,20 +8,20 @@
   <style>
     /* Additional CSS for responsiveness */
     img {
-      max-width: 100%; /* Ensure images don't exceed container width */
-      height: auto; /* Maintain aspect ratio */
+      max-width: 100%;
+      height: auto;
     }
-    
-    /* Example of using vw for font size */
     h1 {
-      font-size: 5vw; /* Responsive font size based on viewport width */
+      font-size: 5vw; /* Example of using vw for font size */
     }
-    
-    /* Example of media query for adjusting layout */
+    /* Adjust layout for small screens */
     @media only screen and (max-width: 600px) {
-      nav ul {
-        flex-direction: column; /* Stack nav links vertically on small screens */
+      /* Example of layout adjustment */
+      /* Ensure no horizontal scrolling */
+      body {
+        overflow-x: hidden;
       }
+      /* Additional adjustments for small screens */
     }
   </style>
 </head>
@@ -31,13 +31,15 @@
   </header>
 
   <nav>
-    <img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" alt="UNC Logo">
+    <a href="fullsize_logo.jpg">
+      <img src="thumbnail_logo.jpg" alt="UNC Logo">
+    </a>
     <ul>
-      <li><a href="https://ellamitchler.github.io/profile.html">My Profile</a></li>
-      <li><a href="https://ellamitchler.github.io/inspire.html">My Hero</a></li>
-      <li><a href="https://ellamitchler.github.io/amuse.html">My Amusement</a></li>
+      <!-- Nav links -->
     </ul>
   </nav>
+
+  <!-- Main content -->
 
 </body>
 </html>
