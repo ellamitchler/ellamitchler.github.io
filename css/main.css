@@ -109,7 +109,21 @@ img {
   opacity: 0.8;
 }
 
-/* Apply pink color to the title "Funny Things on the Web" */
 h1 {
   color: pink;
 }
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  h1 {
+    font-size: 24px; /* Adjusted font size */
+  }
+  h2 {
+    font-size: 20px; /* Adjusted font size */
+  }
+  img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+  }
+}
+
