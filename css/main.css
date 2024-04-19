@@ -1,3 +1,11 @@
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+  nav {
+    text-align: center; /* Center navigation elements */
+  }
+}
 @font-face {
   font-family: 'Arial';
   src: url('fonts/arial.woff2') format('woff2'),
