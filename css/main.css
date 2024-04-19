@@ -116,10 +116,10 @@ h1 {
 @media only screen and (max-width: 768px) {
   /* Adjust styles for smaller screens */
   h1 {
-    font-size: 24px; /* Adjusted font size */
+    font-size: 24px; 20px
   }
   h2 {
-    font-size: 20px; /* Adjusted font size */
+    font-size: 20px; 14px
   }
   img {
     max-width: 100%; /* Make images responsive */
